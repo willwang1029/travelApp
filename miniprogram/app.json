@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/allSchedule/allSchedule",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/personMessage/personMessage",
+    "pages/personLetter/personLetter",
+    "pages/mySchedule/mySchedule"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "TravelApp",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/allSchedule/allSchedule",
+        "text": "首页",
+        "iconPath": "images/default-original.png",
+        "selectedIconPath": "images/default-choose.png"
+      },
+      {
+        "pagePath": "pages/mySchedule/mySchedule",
+        "text": "个人行程",
+        "iconPath": "images/default-original.png",
+        "selectedIconPath": "images/default-choose.png"
+      },
+      {
+        "pagePath": "pages/personLetter/personLetter",
+        "text": "系统消息",
+        "iconPath": "images/default-original.png",
+        "selectedIconPath": "images/default-choose.png"
+      },
+      {
+        "pagePath": "pages/personMessage/personMessage",
+        "text": "个人信息",
+        "iconPath": "images/default-original.png",
+        "selectedIconPath": "images/default-choose.png"
+      }
+    ]
+  }
+}
